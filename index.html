@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <!--Meta Crap-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Title -->
+  <title>Cloudhome Clock times</title>
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!--Own CSS \o/-->
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Clock</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="TimeData">
+        <!--Weird Fix forr spacing in css ? -->
+        <br><br><br>
+      <div class="Names">
+        Current Time for Ember Primrose: <br>
+      </div>
+    <div class="Time">
+          <script>
+            var date = new Date();
+            document.write(date.getUTCHours() + 2);
+            document.write(':')
+            document.write(date.getUTCMinutes());
+          </script>
+        <br>
+    </div>
+    <div class="Names">
+        Current Time for Elerianae: <br>
+    </div>
+    <div class="Time">
+
+          <script>
+            var date = new Date();
+            document.write(date.getUTCHours() + 1);
+            document.write(':')
+            document.write(date.getUTCMinutes());
+          </script>
+        <br>
+    </div>
+    <div class="Name">
+        Current Time for Bramble: <br>
+    </div>
+    <div class="Time">
+          <script>
+            var date = new Date();
+            document.write(date.getUTCHours() - 5);
+            document.write(':')
+            document.write(date.getUTCMinutes());
+          </script>
+        <br>
+    </div>
+    <div class="Name">
+        Current Time for Kimiro: <br>
+    </div>
+    <div class="Time">
+          <script>
+            var date = new Date();
+            document.write(date.getUTCHours() - 6);
+            document.write(':')
+            document.write(date.getUTCMinutes());
+          </script>
+    </div>
+  </div>
+</div>
